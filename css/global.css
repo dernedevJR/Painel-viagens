@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+   font-family: 'Montserrat';
+   src: url(fonts/Montserrat-VariableFont_wght.ttf);
+   font-style:normal;
+   font-display: swap;  }
 
 :root{
     --background-primary-color: #ffffff;
@@ -7,7 +11,7 @@
 
     --button-primary-color: #8f0101;
     --button-secondary-color: #b81515;
-
+ 
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
     
@@ -22,6 +26,11 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: var(--tdecettprimary-color)
 }
 
 
