@@ -1,0 +1,26 @@
+header{
+    background-color: var(--background-tertiary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 38px 48px;
+}
+.logo{
+    display: inline-block;
+    width:68px;
+    height:64px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: var(--tdecettprimary-color)
+}
+
+nav{
+    display:none;
+}
+
+.menu{
+    margin-top:24px;
+}
