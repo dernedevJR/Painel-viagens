@@ -21,6 +21,11 @@ nav{
     display:none;
 }
 
+input[type='checkbox']:checked ~ nav{
+    display:block;
+}
+
+
 .menu{
     margin-top:24px;
 }
