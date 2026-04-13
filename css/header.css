@@ -36,5 +36,35 @@ input[type='checkbox']:checked ~ nav{
     color: var(--text-secondary-color);
     margin-left:50px;
     text-decoration:none;
+    font-weight: var(--menu-text-weigth);
+    font-size: 24px;
+}
 
+@media screen and (min-width: 768px){
+    .menu{
+        margin: 15px;
+    }
+
+    .menu label{
+        display:none;
+    }
+
+    .menu nav{
+        display:block;
+    }
+
+    .menu ul{
+        display:flex;
+        justify-content:space-between;
+        width: 500px;
+        align-items: center;
+    }
+
+    .menu li{
+        margin:0;
+    }
+
+    .menu li a{
+        margin:0;
+    }
 }
