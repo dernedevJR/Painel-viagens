@@ -12,6 +12,9 @@ header{
     width:68px;
     height:64px;
 }
+.img_desktop{
+    display:none;
+}
 
 .menu{
     margin-top:24px;
@@ -36,5 +39,62 @@ input[type='checkbox']:checked ~ nav{
     color: var(--text-secondary-color);
     margin-left:50px;
     text-decoration:none;
+    font-weight: var(--menu-text-weigth);
+    font-size: 24px;
+}
 
+@media screen and (min-width: 768px){
+    .menu{
+        margin: 15px;
+    }
+
+    .menu label{
+        display:none;
+    }
+
+    .menu nav{
+        display:block;
+    }
+
+    .menu ul{
+        display:flex;
+        justify-content:space-between;
+        width: 500px;
+        align-items: center;
+    }
+
+    .menu li{
+        margin:0;
+    }
+
+    .menu li a{
+        margin:0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    header{
+        padding:38px 165px;
+    }
+   .img_mobile{
+        display:none;
+   }
+
+   .img_desktop{
+    display:block;
+   }
+
+   .logo{
+    width: 260px;
+    height: 64px;
+   }
+
+   .listLinks a:hover{
+    color: var(--button-primary-color);
+   }
+
+   .listLinks a:active{
+    text-decoration: underline;
+    font-weight: bold;
+   }
 }
