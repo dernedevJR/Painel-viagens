@@ -1,0 +1,6 @@
+.hero-img{
+    height:400px;
+    width: 100%;
+    background: url(../img/paisagem-pag-1.png) no-repeat;
+    background-size: cover;
+}
