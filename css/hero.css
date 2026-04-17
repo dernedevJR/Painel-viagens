@@ -1,6 +1,23 @@
 .hero-img{
     height:400px;
     width: 100%;
-    background: url(../img/paisagem-pag-1.png) no-repeat;
+    background: url(../img/paisagem-mobile.png) no-repeat;
     background-size: cover;
+}
+
+/*background-image para tablet*/
+@media screen and (min-width: 768px){
+    .hero-img{
+    height:620px;
+    background: url(../img/paisagem-tablet.png) no-repeat;
+    background-size: cover;
+}
+}
+
+@media screen and (min-width: 1024px){
+    .hero-img{
+    height: 620px;
+    background: url(../img/paisagem-desktop.png) no-repeat;
+    background-size: cover;
+}
 }
