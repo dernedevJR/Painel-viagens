@@ -5,19 +5,40 @@
     background-size: cover;
 }
 
-/*background-image para tablet*/
-@media screen and (min-width: 768px){
+.hero h2{
+    font-family: var(--font-text-primary);
+    font-weight: var(--text-weight);
+    font-size:20px;
+    text-align:center;
+    line-height: 1.5;
+    padding: 88px 24px;
+    margin: 0;
+}
+
+/*Tablet*/
+@media screen and (min-width: 690px){
     .hero-img{
     height:620px;
     background: url(../img/paisagem-tablet.png) no-repeat;
     background-size: cover;
 }
+.hero h2{
+    font-size: 32px;
+    padding: 88px 60px;
+}
 }
 
+/*Desktop*/
 @media screen and (min-width: 1024px){
     .hero-img{
     height: 620px;
     background: url(../img/paisagem-desktop.png) no-repeat;
     background-size: cover;
 }
+
+    .hero h2{
+        padding:104px 120px
+    }
+
+
 }
