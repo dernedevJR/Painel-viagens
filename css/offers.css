@@ -1,6 +1,3 @@
-/* .cards-offers{
-  
-} */
 .card{
     background-color:#000000;
     color:var(--text-secondary-color);
@@ -10,6 +7,7 @@
     padding: 24px 16px; 
     border-radius:16px;
     margin:auto;
+    text-align:center;
 }
 .card header{
     display:block;
@@ -38,16 +36,30 @@
 .button-link{
     width:280px;
     height: 64px;
-}
-.button-link a{
     font-size:20px;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content:center;
+    text-align:center;
+    line-height:64px;
+    display: inline-block;
     text-decoration: none;
+    font-weight: var(--title-weigth);
     color: var(--text-secondary-color);
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: var(--button-secondary-color);
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px){
+    .card{
+        width:588px;
+        height:308px;
+    }
+
+    .card h3{
+        font-size: 48px;
+    }
+
+    .card span{
+        font-size: 40px;
+    }
+
 }
