@@ -1,3 +1,9 @@
+.cards-offers{
+    display:flex;
+    flex-direction:column;
+    gap: 24px;
+    align-items:center;
+}
 .card{
     background-color:#000000;
     color:var(--text-secondary-color);
@@ -48,9 +54,34 @@
     justify-content: center;
 }
 
+.card.japao{
+    background: url(../img/img-japao.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.san-andreas{
+    background: url(../img/img-san-andreas.jpg) no-repeat;
+    background-size: cover; 
+}
+.card.paraiba{
+    background: url(../img/img-paraiba.jpg) no-repeat;
+    background-size: cover; 
+}
+.card.manaus{
+    background: url(../img/img-manaus.jpg) no-repeat;
+    background-size: cover; 
+}
+@media screen and (min-width: 768px){
+  .cards-offers{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
 @media screen and (min-width: 1024px){
     .card{
-        width:588px;
+        width:420px;
         height:308px;
     }
 
@@ -62,4 +93,17 @@
         font-size: 40px;
     }
 
+}
+
+@media screen and (min-width: 1440px){
+    .card{
+        width: 588px
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .cards-offers{
+        width: 1250px;
+        margin: 0 auto;
+    }
 }
