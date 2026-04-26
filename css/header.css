@@ -61,6 +61,7 @@ input[type='checkbox']:checked ~ nav{
         justify-content:space-between;
         width: 500px;
         align-items: center;
+        list-style: none;
     }
 
     .menu li{

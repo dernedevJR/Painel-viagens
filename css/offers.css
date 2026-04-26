@@ -1,0 +1,109 @@
+.cards-offers{
+    display:flex;
+    flex-direction:column;
+    gap: 24px;
+    align-items:center;
+}
+.card{
+    background-color:#000000;
+    color:var(--text-secondary-color);
+    width:312px;
+    height: 288px;
+    box-sizing:border-box;
+    padding: 24px 16px; 
+    border-radius:16px;
+    margin:auto;
+    text-align:center;
+}
+.card header{
+    display:block;
+    padding: 0;
+    background-color: transparent;
+    position: static;
+    text-align: center;
+}
+
+.card header p{
+    font-size: 20px;
+    font-weight: var(--text-weigth);
+    margin-bottom: 8px;
+}
+
+.card h3{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.card span{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.button-link{
+    width:280px;
+    height: 64px;
+    font-size:20px;
+    text-align:center;
+    line-height:64px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: var(--title-weigth);
+    color: var(--text-secondary-color);
+    border-radius: 16px;
+    background-color: var(--button-secondary-color);
+    justify-content: center;
+}
+
+.card.japao{
+    background: url(../img/img-japao.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.san-andreas{
+    background: url(../img/img-san-andreas.jpg) no-repeat;
+    background-size: cover; 
+}
+.card.paraiba{
+    background: url(../img/img-paraiba.jpg) no-repeat;
+    background-size: cover; 
+}
+.card.manaus{
+    background: url(../img/img-manaus.jpg) no-repeat;
+    background-size: cover; 
+}
+@media screen and (min-width: 768px){
+  .cards-offers{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media screen and (min-width: 1024px){
+    .card{
+        width:420px;
+        height:308px;
+    }
+
+    .card h3{
+        font-size: 48px;
+    }
+
+    .card span{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .card{
+        width: 588px
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .cards-offers{
+        width: 1250px;
+        margin: 0 auto;
+    }
+}
