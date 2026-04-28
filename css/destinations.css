@@ -1,0 +1,6 @@
+.destinations .item header{
+    position: static;
+    background-color: transparent;
+    padding:0px;
+    display: block;
+}
