@@ -4,8 +4,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 38px 48px;
-    position: relative;
+    padding: 38px 48px;   
+    position: relative;    
 }
 .logo{
     display: inline-block;
@@ -34,6 +34,7 @@ input[type='checkbox']:checked ~ nav{
 }
 .listLinks li{
     margin: 16px;
+    list-style-type: none;
 }
 .listLinks li a{
     color: var(--text-secondary-color);
@@ -41,6 +42,7 @@ input[type='checkbox']:checked ~ nav{
     text-decoration:none;
     font-weight: var(--menu-text-weigth);
     font-size: 24px;
+    
 }
 
 @media screen and (min-width: 768px){

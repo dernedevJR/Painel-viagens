@@ -34,11 +34,22 @@ body{
     color: var(--text-primary-color);
 }
 
+section{
+    width: 360px;
+    margin: 0 auto 88px;
+}
+
+section.hero{
+    width:100%;
+    margin: 0;
+}
+
 .section-title h2{
     font-size:28px;
     font-weight: var(--title-weigth);
-    margin-top: 88px;
     text-align: center;
+    width: 250px;
+    margin: auto;
 }
 
 .section-title hr{
@@ -49,9 +60,40 @@ body{
     background-color: var(--button-secondary-color);
 }
 
+.button-link{
+    width:280px;
+    height: 64px;
+    font-size:20px;
+    text-align:center;
+    line-height:64px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: var(--title-weigth);
+    color: var(--text-secondary-color);
+    border-radius: 16px;
+    background-color: var(--button-secondary-color);
+    justify-content: center;
+}
+
 /*Tablet and Desktop*/
 @media screen and (min-width: 768px){
-    .section-title{
+    section{
+        width:768px;
+    }
+    .section-title h2{
         font-size: 32px;
+        width:100%
+    }
+}
+
+@media screen and (min-width: 1024px){
+    section{
+        width:900px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    section{
+        width:1400px;
     }
 }
