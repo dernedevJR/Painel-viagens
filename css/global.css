@@ -68,6 +68,7 @@ section.hero{
 {
     font-size: 20px;
     line-height: 33px;
+    margin: 20px;
 }
 
 .button-link{
@@ -94,6 +95,14 @@ section.hero{
         font-size: 32px;
         width:100%
     }
+
+    .content-text
+{
+    font-size: 20px;
+    line-height: 33px;
+    margin: 24px 60px;
+}
+
 }
 
 @media screen and (min-width: 1024px){
