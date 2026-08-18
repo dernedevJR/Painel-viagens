@@ -1,7 +1,6 @@
 .categories .section-title {
     width: 312px;
     margin: 0 auto;
-    padding-top: 88px;
 }
 
 .cards-categories {
@@ -17,7 +16,6 @@
     margin: auto;
     cursor: pointer;
     padding: 16px 24px;
-    background-color: var(--);
 }
 
 .categoria img {

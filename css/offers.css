@@ -39,20 +39,7 @@
     margin-bottom: 24px;
 }
 
-.button-link{
-    width:280px;
-    height: 64px;
-    font-size:20px;
-    text-align:center;
-    line-height:64px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: var(--title-weigth);
-    color: var(--text-secondary-color);
-    border-radius: 16px;
-    background-color: var(--button-secondary-color);
-    justify-content: center;
-}
+
 
 .card.japao{
     background: url(../img/img-japao.jpg) no-repeat;
