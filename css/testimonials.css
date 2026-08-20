@@ -1,3 +1,24 @@
+.testimonials-cards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 .header-testimonials-card p{
     font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    width:300px;
+}
+.flex-testimonials-card{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.footer-testimonials-card h2{
+      font-size: 20px;
+}
+.star-container .star{
+    font-size:36px;
+    color: #ff0303
 }
