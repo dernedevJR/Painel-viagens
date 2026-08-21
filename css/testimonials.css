@@ -2,6 +2,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 .header-testimonials-card p{
     font-size: 16px;
@@ -13,6 +14,7 @@
     display: flex;
     align-items: center;
     gap:20px;
+    padding-right: 24px;
 }
 
 .footer-testimonials-card h2{
