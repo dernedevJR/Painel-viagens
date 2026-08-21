@@ -1,3 +1,6 @@
+section.payments{
+    height: 770px;
+}
 .payments .image-gallery{
     display: grid;
     grid-template-columns: 1fr 1fr;
