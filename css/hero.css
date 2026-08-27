@@ -1,44 +1,95 @@
-.hero-img{
-    height:400px;
+.hero-img {
+    height: 400px;
     width: 100%;
     background: url(../img/paisagem-mobile.png) no-repeat;
     background-size: cover;
 }
 
-.hero h2{
+.hero h2 {
     font-family: var(--font-text-primary);
     font-weight: var(--text-weight);
-    font-size:20px;
-    text-align:center;
+    font-size: 20px;
+    text-align: center;
     line-height: 1.5;
     padding: 88px 24px;
     margin: 0;
 }
 
 /*Tablet*/
-@media screen and (min-width: 690px){
-    .hero-img{
-    height:620px;
-    background: url(../img/paisagem-tablet.png) no-repeat;
-    background-size: cover;
-}
-.hero h2{
-    font-size: 32px;
-    padding: 88px 60px;
-}
+@media screen and (min-width: 690px) {
+    .hero-img {
+        height: 620px;
+        background: url(../img/paisagem-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+        padding: 88px 60px;
+    }
 }
 
 /*Desktop*/
-@media screen and (min-width: 1024px){
-    .hero-img{
-    height: 620px;
-    background: url(../img/paisagem-desktop.png) no-repeat;
-    background-size: cover;
-}
-
-    .hero h2{
-        padding:104px 120px
+@media screen and (min-width: 1024px) {
+    .hero-img {
+        height: 620px;
+        background: url(../img/paisagem-desktop.png) no-repeat;
+        background-size: cover;
     }
 
+    .hero h2 {
+        padding: 104px 120px
+    }
+}
 
+/* Travel-Package */
+
+.travel-package-hero .hero-img {
+    background: url(/img/img-hero-japao.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.travel-hero-text {
+    color: var(--text-secondary-color);
+    padding: 36px 24px;
+}
+
+.travel-hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: var(--title-weigth);
+}
+
+.travel-hero-text hr {
+    height: 4px;
+    width: 180px;
+    background-color: var(--button-secondary-color);
+    border: none;
+    margin-bottom: 32px;
+}
+
+.travel-hero-text p {
+    width: 320px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .travel-hero-text {
+        padding: 215px 120px;
+    }
+
+    .travel-hero-text p {
+        width: 550px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .travel-package-hero .hero-img {
+    height: 770px;
+}
 }
